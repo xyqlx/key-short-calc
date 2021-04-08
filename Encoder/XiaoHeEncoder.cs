@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace key_short_calc
+namespace key_short_calc.Encoder
 {
     public class XiaoHeEncoder: IChineseEncoder{
         private static Dictionary<string, string> table = new Dictionary<string, string>{

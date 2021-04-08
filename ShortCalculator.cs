@@ -1,12 +1,13 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using key_short_calc.Encoder;
 
 namespace key_short_calc
 {
-    public class ShortCalaculator
+    public class ShortCalculator
     {
-        public ShortCalaculator(IChineseEncoder encoder)
+        public ShortCalculator(IChineseEncoder encoder)
         {
             this.encoder = encoder;
         }

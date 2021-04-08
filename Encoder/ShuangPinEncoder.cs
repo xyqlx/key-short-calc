@@ -1,6 +1,6 @@
 using System;
 
-namespace key_short_calc
+namespace key_short_calc.Encoder
 {
     public class PinYinEncoder: IChineseEncoder{
         public char encode(char ch){
